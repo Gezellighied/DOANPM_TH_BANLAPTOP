@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DOANPM_TH.props" />
+</Project>
