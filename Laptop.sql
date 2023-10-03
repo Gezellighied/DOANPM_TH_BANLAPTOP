@@ -1,9 +1,9 @@
 CREATE TABLE Laptops (
     LaptopID INT PRIMARY KEY ,
+	LaptopName Nvarchar (50) not null,
     Brand NVARCHAR(50) NOT NULL,
-    Model NVARCHAR(50) NOT NULL,
     ScreenSize DECIMAL(4, 2) NOT NULL,
-    Processor VARCHAR(50) NOT NULL,
+    Processor NVARCHAR(50) NOT NULL,
     RAM INT NOT NULL,
     Price DECIMAL(10, 2) NOT NULL,
 	Image NVARCHAR (100) NOT NULL
@@ -12,9 +12,8 @@ CREATE TABLE Laptops (
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
     Name NVARCHAR(50) NOT NULL,
-    Email VARCHAR(100) NOT NULL,
-    Phone VARCHAR(15) NOT NULL,
-    Address VARCHAR(255) NOT NULL
+    Email NVARCHAR(100) NOT NULL,
+    Phone NVARCHAR(15) NOT NULL,
 )
 
 CREATE TABLE Orders (
@@ -36,9 +35,9 @@ Create table OrderDetails
 
 Create table Carts
 (
-	CartId int identity (1, 1) primary key,
-	CustomerId int constraint FK_Cart_Customers foreign key references Customers(CustomerId),
-	ProductId int constraint FK_Cart_Products foreign key references Laptops(LaptopId),
+	CartID int identity (1, 1) primary key,
+	CustomerID int constraint FK_Cart_Customers foreign key references Customers(CustomerID),
+	ProductID int constraint FK_Cart_Products foreign key references Laptops(LaptopID),
 	Quantity int,
 	Total float,
 	UpdateDay date,
@@ -46,6 +45,6 @@ Create table Carts
 
 Create table Brand
 (
-	BrandId int primary key,
+	BrandID int primary key,
 	Name nvarchar(100) not null,
 )
