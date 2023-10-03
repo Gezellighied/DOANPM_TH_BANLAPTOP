@@ -29,3 +29,14 @@ C:\Users\diepm\Desktop\DOANPM_TH\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\refint\DOA
 C:\Users\diepm\Desktop\DOANPM_TH\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.pdb
 C:\Users\diepm\Desktop\DOANPM_TH\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.genruntimeconfig.cache
 C:\Users\diepm\Desktop\DOANPM_TH\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\ref\DOANPM_TH.dll
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.csproj.AssemblyReference.cache
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.AssemblyInfoInputs.cache
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.AssemblyInfo.cs
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.csproj.CoreCompileInputs.cache
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.RazorAssemblyInfo.cache
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.RazorAssemblyInfo.cs
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.dll
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\refint\DOANPM_TH.dll
+C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\obj\Debug\net6.0\DOANPM_TH.pdb
