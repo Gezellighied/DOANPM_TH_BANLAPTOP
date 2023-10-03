@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diepm\\Desktop\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj": {}
+    "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diepm\\Desktop\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj": {
+    "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diepm\\Desktop\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj",
+        "projectUniqueName": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj",
         "projectName": "DOANPM_TH",
-        "projectPath": "C:\\Users\\diepm\\Desktop\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj",
+        "projectPath": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH.csproj",
         "packagesPath": "C:\\Users\\diepm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diepm\\Desktop\\DOANPM_TH\\DOANPM_TH\\DOANPM_TH\\obj\\",
+        "outputPath": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diepm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
