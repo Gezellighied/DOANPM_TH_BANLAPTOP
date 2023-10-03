@@ -12,7 +12,7 @@ namespace DOANPM_TH.Models.ViewModel
         }
         public List<Laptops> getLaptops()
         {
-            List<Laptops> laptops = dbContext.Laptops.OrderByDescending(p => p.LaptopsID).ToList();
+            List<Laptops> laptops = dbContext.Laptops.OrderByDescending(p => p.LaptopID).ToList();
             return laptops;
         }
         public Laptops getLaptopsById(int id)

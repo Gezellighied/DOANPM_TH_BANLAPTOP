@@ -3,7 +3,7 @@
     public class LatopsViewModel
     {
         public int LaptopsID { get; set; }
-        public string LaptopsName { get; set; }
+        public string LaptopName { get; set; }
         public string Brand { get; set; }
         public double ScreenSize { get; set; }
         public string Processor { get; set; }

@@ -2,13 +2,13 @@
 {
     public class Laptops
     {
-        public int LaptopsID { get; set; }
-        public string LaptopsName { get; set; }
+        public int LaptopID { get; set; }
+        public string LaptopName { get; set; }
         public string Brand { get; set; }
-        public double ScreenSize { get; set; }
+        public int ScreenSize { get; set; }
         public string Processor { get; set; }
         public int Ram { get; set; }
-        public double Price { get; set; }
+        public int Price { get; set; }
         public string Image { get; set; }
     }
 }

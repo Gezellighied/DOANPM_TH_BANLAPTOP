@@ -2,10 +2,10 @@ CREATE TABLE Laptops (
     LaptopID INT PRIMARY KEY ,
 	LaptopName Nvarchar (50) not null,
     Brand NVARCHAR(50) NOT NULL,
-    ScreenSize DECIMAL(4, 2) NOT NULL,
+    ScreenSize int NOT NULL,
     Processor NVARCHAR(50) NOT NULL,
     RAM INT NOT NULL,
-    Price DECIMAL(10, 2) NOT NULL,
+    Price int NOT NULL,
 	Image NVARCHAR (100) NOT NULL
 )
 
@@ -40,7 +40,6 @@ Create table Carts
 	ProductID int constraint FK_Cart_Products foreign key references Laptops(LaptopID),
 	Quantity int,
 	Total float,
-	UpdateDay date,
 )
 
 Create table Brand
