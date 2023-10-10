@@ -5,7 +5,6 @@
 }
 
 <div class="content-top" margin-top="0px">
-    <h1>Laptop</h1>
     <div class="grid-in" align="center">
         <div class="container" align="center">
             <style>
@@ -89,18 +88,9 @@
                                 <div class="b-wrapper">
                                 </div>
 
-                            </a><p><a href="~/Th%E1%BB%8Bt%20Tr%C3%A2u%20G%C3%A1c%20B%E1%BA%BFp-7" class="b-link-stripe b-animate-go  thickbox"></a><a href="/Th%E1%BB%8Bt%20Tr%C3%A2u%20G%C3%A1c%20B%E1%BA%BFp-7" style="margin-bottom:auto;">@item.LaptopName</a></p>
+                            </a><p><a style="margin-bottom:auto;">@item.LaptopName</a></p>
                             <strong style="font-size: 20px;color:#ff0000;margin: 0 9px 5px;">Giá Tiền:@item.Price</strong>
-                            <div class="km" style="display: block; font-size: 12px; color: #797979; margin: 0 9px; clear: both; float: none; width: 64%; height: auto; border: 0;">
-                                <span margin-left="5px">
-                                    Cấu hình:@item.Processor
-                                </span>
-                                <br/>
-                                <span margin-left="5px">
-                                    Ram:@item.Ram
-                                </span>
-                            </div>
-                            <div>
+                            <div class="km" style="display: block; font-size: 12px; color: #797979; margin: 0 9px; clear: both; float: none; width: 64%; height: auto; border: 0;">  
                                 <a class="btn btn-primary" asp-controller="HomeCustomer" asp-action="LaptopDetails" asp-route-laptopId="@item.LaptopsID">
                                     Chi Tiết
                                     <i class="far fa-eye"></i>

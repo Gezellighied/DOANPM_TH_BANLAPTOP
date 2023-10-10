@@ -1453,12 +1453,320 @@
       "PackagePath": "staticwebassets\\ProductLayout\\js\\simpleCart.min.js"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\about-hero.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-hero.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\banner_img_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner_img_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\banner_img_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner_img_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\banner_img_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\brand_01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand_01.png"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\brand_02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand_02.png"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\brand_03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand_03.png"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\brand_04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand_04.png"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\category_img_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\category_img_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\category_img_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\category_img_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\category_img_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\feature_prod_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature_prod_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\feature_prod_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature_prod_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\feature_prod_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature_prod_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\product_single_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product_single_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\img\\shop_11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\templatemo.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\templatemo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\assets\\webfonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\slick.woff"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\flexslider.css",
       "PackagePath": "staticwebassets\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
     },
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\memenu.css",
@@ -1469,12 +1777,32 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\css\\slick.min.css"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\style_form_dangnhap.css",
       "PackagePath": "staticwebassets\\css\\style_form_dangnhap.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.css"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.min.css"
     },
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\favicon.ico",
@@ -1513,6 +1841,22 @@
       "PackagePath": "staticwebassets\\images\\nen1.jpg"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\jquery.flexslider.js",
       "PackagePath": "staticwebassets\\js\\jquery.flexslider.js"
     },
@@ -1539,6 +1883,18 @@
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.js"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.min.js"
     },
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -1767,6 +2123,82 @@
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\slick.eot",
+      "PackagePath": "staticwebassets\\webfonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\slick.svg",
+      "PackagePath": "staticwebassets\\webfonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\webfonts\\slick.woff",
+      "PackagePath": "staticwebassets\\webfonts\\slick.woff"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DOANPM_TH.Microsoft.AspNetCore.StaticWebAssets.props",
