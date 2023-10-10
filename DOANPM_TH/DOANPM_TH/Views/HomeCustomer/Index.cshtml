@@ -101,7 +101,10 @@
                                 </span>
                             </div>
                             <div>
-                                <button class="btn-danger">Mua</button>
+                                <a class="btn btn-primary" asp-controller="HomeCustomer" asp-action="LaptopDetails" asp-route-laptopId="@item.LaptopsID">
+                                    Chi Tiết
+                                    <i class="far fa-eye"></i>
+                                </a>
                             </div>
                            @* <a data-ajax="true" data-ajax-method="GET" data-ajax-mode="replace" data-ajax-update="#divGioHang" href="~/GioHang/ThemGioHangAjax?MaSP=7&amp;strURL=http%3A%2F%2Flocalhost%3A9328%2FHome%2FIndex">Mua Sản Phẩm</a>*@
                         </div>

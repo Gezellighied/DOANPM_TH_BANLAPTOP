@@ -15,10 +15,14 @@ namespace DOANPM_TH.Models.ViewModel
             List<Laptops> laptops = dbContext.Laptops.OrderByDescending(p => p.LaptopID).ToList();
             return laptops;
         }
-        public Laptops getLaptopsById(int id)
+        public Laptops GetLaptopsById(int laptopID)
         {
             Laptops laptops = new Laptops();
             return laptops;
+        }
+        public Laptops GetLaptopDetails(int? laptopId)
+        {
+            return dbContext.Laptops.FirstOrDefault(p => p.LaptopID == laptopId);
         }
         public Laptops GetLaptopsByName(string name)
         {

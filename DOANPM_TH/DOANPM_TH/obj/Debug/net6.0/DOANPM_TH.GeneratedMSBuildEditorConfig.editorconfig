@@ -16,8 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Models/ClassModel/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXENsYXNzTW9kZWxcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/LaptopDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXExhcHRvcERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Main/Index.cshtml]

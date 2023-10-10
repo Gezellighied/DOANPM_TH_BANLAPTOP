@@ -38,5 +38,17 @@ namespace DOANPM_TH.Controllers
             ViewData["listlaptop"] = latopsViewModels;
             return View();
         }
+        public IActionResult laptopDetails(int? laptopId)
+        {
+            ViewBag.PageHeader = "Chi tiết sản phẩm";
+            ViewBag.LaptopDetails = dbHelper.GetLaptopDetails(laptopId);
+            return View();
+        }
+        //public IActionResult LaptopsDetails(int laptopID)
+        //{
+        //    Laptops laptops = dbHelper.GetLaptopDetails(laptopID);
+        //    ViewBag.laptopDetails = laptops;
+        //    return View();
+        //}
     }
 }
