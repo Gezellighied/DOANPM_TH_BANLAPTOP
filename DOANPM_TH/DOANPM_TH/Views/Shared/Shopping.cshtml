@@ -17,82 +17,17 @@
     <link rel="stylesheet" href="~/assets/css/fontawesome.min.css">
     <!--
 
-    TemplateMo 559 Zay Shop
 
     https://templatemo.com/tm-559-zay-shop
 
     -->
 </head>
-@*<head>
-
-    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="~/Content/js/jquery.min.js"></script>
-    <!-- Custom Theme files -->
-    <!--theme-style-->
-    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all">
-    <!--//theme-style-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="New Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <!--fonts-->
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" type="text/css"><!--//fonts-->
-    <!-- start menu -->
-    <link href="~/Content/css/memenu.css" rel="stylesheet" type="text/css" media="all">
-    <script type="text/javascript" src="/Content/js/memenu.js"></script>
-    <script>$(document).ready(function () { $(".memenu").memenu(); });</script>
-    <script src="~/Content/js/simpleCart.min.js"> </script>
-    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
-    <style type="text/css">
-        .btn-top {
-            background-repeat: no-repeat;
-            background-color: #808080;
-            border: 3px solid #808080;
-            bottom: 20px;
-            cursor: pointer;
-            display: none;
-            width: 50px;
-            height: 70px;
-            padding: 0;
-            position: fixed;
-            right: 20px;
-            text-align: center;
-            color: #e8ae24;
-        }
-
-            .btn-top:hover {
-                text-decoration: none;
-                color: red;
-            }
-    </style>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            if ($(".btn-top").length > 0) {
-                $(window).scroll(function () {
-                    var e = $(window).scrollTop();
-                    if (e > 300) {
-                        $(".btn-top").show()
-                    } else {
-                        $(".btn-top").hide()
-                    }
-                });
-                $(".btn-top").click(function () {
-                    $('body,html').animate({
-                        scrollTop: 0
-                    })
-                })
-            }
-        });
-    </script>
-</head>*@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="~/index.html">
+            <a class="navbar-brand text-success logo h1 align-self-center" asp-controller="HomeCustomer" asp-action="Index">
+                
                 Zay
             </a>
 
@@ -104,7 +39,8 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.cshtml">Home</a>
+                            @*<a class="nav-link" href="index.cshtml">Home</a>*@
+                            <a class="nav-link" asp-controller="HomeCustomer" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="~/about.html">About</a>
@@ -137,217 +73,24 @@
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
                     </a>
-                    <li style=" display: inline;"><a id="btnDangNhap" class="lock" href="#">Đăng Nhập</a></li>
-                    <li style=" display: inline;"><a class="lock" href="/Home/DangKy">Đăng Ký</a></li>
+                    <div class="navbar-nav ml-auto py-0">
+                       @* @if (Accessor.HttpContext.Session.GetString("Email") == null)*@
+                        {
+                            <div class="navbar-nav ml-auto py-0">
+                                <a asp-controller="Customer" asp-action="Login" class="nav-item nav-link">Đăng nhập</a>
+                                <a asp-controller="Customer" asp-action="Register" class="nav-item nav-link">Đăng ký</a>
+                            </div>
+                        }
+                       @* else
+                        {
+
+                        }*@
+                    </div>       
                 </div>
             </div>
 
         </div>
     </nav>
- @*   <div class="header">
-
-        <div class="header-top">
-            <div class="container">
-                <div class="search">
-                    <form action="~/TimKiem/LayTuKhoaTimKiem" method="post">
-                        <input type="text" name="sTuKhoa" placeholder="Tên sản phẩm ...">
-                        <input type="submit" value="Tìm kiếm">
-                    </form>
-                </div>
-                <div class="header-left">
-                    <ul>
-                        <li style=" display: inline;"><a id="btnDangNhap" class="lock" href="#">Đăng Nhập</a></li>
-                        <li style=" display: inline;"><a class="lock" href="/Home/DangKy">Đăng Ký</a></li>
-                        <br>
-                        <li><a href="/LoginAdmin" style="color:black;">Đăng Nhập Admin</a></li>
-                        <li>
-
-                        </li>
-
-                    </ul>
-
-                    <div id="divGioHang" class="cart box_1">
-                        <a href="/GioHang/XemGioHang">
-                            <h3>
-                                <div class="total">
-                                    VNĐ (<span>0</span> sp)
-                                </div>
-                                <img src="/Content/images/cart.png" alt="">
-                            </h3>
-                        </a>
-                        <p><a href="~/GioHang/XemGioHang" class="simpleCart_empty" style="align-content:center;">Giỏ Hàng</a></p>
-                    </div>
-                    <style>
-                        .simpleCart_empty:hover {
-                            text-decoration: none;
-                            color: red;
-                        }
-                    </style>
-
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-
-        </div>
-
-        <link href="~/Content/css/style_form_dangnhap.css" rel="stylesheet">
-        <br>
-        <div id="popup_login">
-            <div class="login-form" id="login-form">
-                <div style="clear:both;text-align:right;margin-bottom:0;">
-                    <span id="close-form" class="btn btn-danger">X</span>
-                </div>
-                <h2>Đăng nhập</h2>
-                <div class="form-info">
-                    <form action="~/Home/DangNhap" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#ThongBao" id="form0" method="post">
-                        <input class="email TaiKhoan" name="txtTenDangNhap" placeholder="Tên đăng nhập" required="" type="text">
-                        <input class="password MatKhau" name="txtMatKhau" placeholder="Mật khẩu" required="" type="password">
-                        <p><a href="#">Quên mật khẩu?</a></p>
-                        <h3 style="font-weight:bold;color:red;text-align:left;" id="ThongBao"> </h3>
-                        <ul class="login-buttons">
-                            <li><input value="Đăng nhập" type="submit" id="btnDangNhap1"></li>
-                            <li><a href="#" class="hvr-sweep-to-left">Đăng ký</a></li>
-
-                        </ul>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-        <style>
-
-
-            #close-form {
-                color: white;
-            }
-
-
-            #login-form {
-                background: #3a3a46;
-                cursor: pointer;
-            }
-
-            #popup_login {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(0,0,0,.5);
-                z-index: 9999;
-                display: none;
-            }
-
-            ul {
-                text-align: left;
-            }
-        </style>
-        <script type="text/javascript">
-            $("#btnDangNhap").click(function () {
-                $("#popup_login").show();
-            });
-            $("#close-form").click(AnForm);
-            function AnForm() {
-                $("#popup_login").hide();
-            }
-            $("#btnDangNhap1").click(function () {
-                var TaiKhoan = $(".TaiKhoan").val();
-                var MatKhau = $(".MatKhau").val();
-                if (TaiKhoan == "") {
-                    alert("Lỗi");
-                    return;
-                }
-            });
-
-        </script>
-
-        <div class="footer"> <a class="btn-top" href="javascript:void(0);" title="Top" style="display: none;">Lên Đầu Trang</a> </div>
-        <div class="container">
-            <div class="head-top">
-                <div class="logo">
-
-                    <a href="/"><img src="~/Content/images/logo.png" alt="" width="150px" height="50px"></a>
-                </div>
-
-                <div class=" h_menu4">
-                    <ul class="memenu skyblue">
-                        <li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li>
-                        <li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li>
-                        <li class="active grid" style="display: inline;"><a class="color8" href="/">Trang chủ</a></li>
-                        <li style="display: inline;">
-                            <a class="color1" href="#">Laptop</a>
-                            <div class="mepanel">
-                                <div class="row">
-                                    <div class="col1">
-                                        <div class="h_nav">
-                                            <ul>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=1&amp;MaNSX=14">Văn Phòng</a></li>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=1&amp;MaNSX=17">Gamming</a></li>
-
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li style="display: inline;">
-                            <a class="color1" href="#">Linh kiện</a>
-                            <div class="mepanel" style="display: none; opacity: 1;">
-                                <div class="row">
-                                    <div class="col1">
-                                        <div class="h_nav">
-                                            <ul>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=2&amp;MaNSX=15">Linh kiện PC</a></li>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=2&amp;MaNSX=16">Linh Kiện laptop</a></li>
-
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="grid" style="display: inline;">
-                            <a class="color2" href="#">	Thương hiệu</a>
-                            <div class="mepanel">
-                                <div class="row">
-                                    <div class="col1">
-                                        <div class="h_nav">
-                                            <h4>Laptop</h4>
-                                            <ul>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=1&amp;MaNSX=14">Acer</a></li>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=1&amp;MaNSX=17">Dell</a></li>
-
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col1">
-                                        <div class="h_nav">
-                                            <h4>Linh Kiện</h4>
-                                            <ul>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=2&amp;MaNSX=15">Samsung</a></li>
-                                                <li><a href="~/SanPham/SanPham?MaLoaiSP=2&amp;MaNSX=16">MSI</a></li>
-
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li style="display: inline;"><a class="color4" href="blog.html">Giới thiệu</a></li>
-                        <li style="display: inline;"><a class="color6" href="contact.html">Liên hệ</a></li>
-                    </ul>
-                </div>
-
-                <div class="clearfix"> </div>
-            </div>
-        </div>**@
     <div>
         @RenderBody()
     </div>
@@ -443,52 +186,4 @@
         </div>
 
     </footer>
-    @*<div class="footer">
-        <div class="container">
-            <div class="footer-top-at">
-
-                <div class="col-md-4 amet-sed">
-                    <h4>Thêm Thông Tin</h4>
-                    <ul class="nav-bottom">
-                        <li><a href="#">Đặt Hàng Như Thế Nào</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="contact.html">Vị Trí</a></li>
-                        <li><a href="#">Đang Chuyển Hàng</a></li>
-                        <li><a href="#">Thành Viên</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 amet-sed ">
-                    <h4>Liên Hệ Với Chúng Tôi</h4>
-
-                    <p>
-                        Số 235 Hoàng Quốc Việt, Cổ Nhuế, Từ Liêm, Hà Nội 129823
-                    </p>
-                    <p>office:  +84 353 679 318</p>
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/TSMois" target="_blank"><i> </i></a></li>
-                        <li><a href="https://twitter.com/hung14121995" target="_blank"><i class="twitter"> </i></a></li>
-                        <li><a href="#"><i class="rss"> </i></a></li>
-                        <li><a href="https://plus.google.com/u/1/?hl=vi" target="_blank"><i class="gmail"> </i></a></li>
-
-                    </ul>
-                </div>
-                <div class="col-md-4 amet-sed">
-                    <h4>Nhận Tin Mới Nhất</h4>
-                    <p>
-                        Đăng ký để có được tất cả các bản cập nhật tin tức và khuyến mãi
-                    </p>
-                    <form>
-                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-                        <input type="submit" value="Đăng Ký">
-                    </form>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <div class="footer-class">
-            <p>© 2018 Ăn Vặt Online| Design by  <a href="http://facebook.com/johnytuananh" target="_blank">Tuấn Anh</a> </p>
-        </div>
-        <div>
-        </div>
-    </div>*@
 </body>

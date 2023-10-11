@@ -16,5 +16,6 @@ namespace DOANPM_TH.Models.ViewModel
             
         }
         public DbSet<Laptops> Laptops { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }
