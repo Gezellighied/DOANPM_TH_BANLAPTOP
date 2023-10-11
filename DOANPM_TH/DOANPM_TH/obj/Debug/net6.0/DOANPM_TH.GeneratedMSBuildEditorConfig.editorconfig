@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DOANPM_TH
 build_property.RootNamespace = DOANPM_TH
-build_property.ProjectDir = C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\
+build_property.ProjectDir = D:\222222222222\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\diepm\Desktop\LAPTOPSHOP\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH
+build_property.MSBuildProjectDirectory = D:\222222222222\DOANPM_TH_BANLAPTOP\DOANPM_TH\DOANPM_TH
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Models/ClassModel/Cart.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Models/ClassModel/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXENsYXNzTW9kZWxcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Cart/Index.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Details.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Index.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/LaptopDetails.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/HomeCustomer/LaptopDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXExhcHRvcERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Main/Index.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/Error.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/Shopping.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/Shopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNob3BwaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/_ViewImports.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/_ViewStart.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/_Layout.cshtml]
+[D:/222222222222/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8c3g4hgpxa
