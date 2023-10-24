@@ -1,5 +1,8 @@
 using DOANPM_TH.Models.ViewModel;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using DOANPM_TH.Data;
+using DOANPM_TH.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +27,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();;
+app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(

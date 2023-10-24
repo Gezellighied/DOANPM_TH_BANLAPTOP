@@ -29,7 +29,7 @@ namespace DOANPM_TH.Controllers
             }
             //else
             //{
-            //    return RedirectToAction("HomePage", "HomeCustomer");
+            //    return RedirectToAction("Index", "HomeCustomer");
             //}
         }
 
@@ -53,7 +53,7 @@ namespace DOANPM_TH.Controllers
                         HttpContext.Session.SetString("Name", customer.Name);
                         HttpContext.Session.SetInt32("CustomerId", customer.CustomerID);
 
-                        return RedirectToAction("HomePage", "HomeCustomer");
+                        return RedirectToAction("Index", "HomeCustomer");
                     }
                     ViewBag.messageError = "Mật khẩu không chính xác!";
 
@@ -78,40 +78,40 @@ namespace DOANPM_TH.Controllers
         {
             ModelState.Remove("Name");
 
-            if (ModelState.IsValid)
-            {
-                Customer customerExists = dbHelper.GetCustomerByEmail(customerVM.Email);
+			if (ModelState.IsValid)
+			{
+				Customer customerExists = dbHelper.GetCustomerByEmail(customerVM.Email);
 
-                // kiểm tra tài khoản đã tồn tài
-                if (customerExists == null) // chưa tồn tại
-                {
-                    // kiểm tra xác nhận mật khẩu
-                    if (customerVM.Password.Equals(customerVM.VerifyPassword))
-                    {
+				// kiểm tra tài khoản đã tồn tài
+				if (customerExists == null) // chưa tồn tại
+				{
+					// kiểm tra xác nhận mật khẩu
+					if (customerVM.Password.Equals(customerVM.VerifyPassword))
+					{
 
-                        Customer customer = new Customer()
-                        {
-                            Email = customerVM.Email,
-                            Name = customerVM.Email.Split("@")[0],
-                            Password = customerVM.Password
-                        };
+						Customer customer = new Customer()
+						{
+							Email = customerVM.Email,
+							Name = customerVM.Email.Split("@")[0],
+							Password = customerVM.Password
+						};
 
-                        dbHelper.CreateCustomer(customer);
+						dbHelper.CreateCustomer(customer);
 
-                        return RedirectToAction("Login");
-                    }
-                    else
-                    {
-                        ViewBag.messageError = "Mật khẩu xác nhận không khớp";
-                    }
-                }
-                else // đã tồn tại
-                {
-                    ViewBag.messageError = "Tài khoản đã tồn tại";
-                }
-            }
+						return RedirectToAction("Login");
+					}
+					else
+					{
+						ViewBag.messageError = "Mật khẩu xác nhận không khớp";
+					}
+				}
+				else // đã tồn tại
+				{
+					ViewBag.messageError = "Tài khoản đã tồn tại";
+				}
+			}
 
-            return View();
+			return View();
         }
     }
 }

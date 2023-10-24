@@ -1,4 +1,5 @@
-﻿using DOANPM_TH.Models.ClassModel;
+﻿using DOANPM_TH.Models;
+using DOANPM_TH.Models.ClassModel;
 using DOANPM_TH.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -38,7 +39,8 @@ namespace DOANPM_TH.Controllers
             ViewData["listlaptop"] = latopsViewModels;
             return View();
         }
-        public IActionResult laptopDetails(int? laptopId)
+		
+		public IActionResult laptopDetails(int? laptopId)
         {
             ViewBag.PageHeader = "Chi tiết sản phẩm";
             ViewBag.LaptopDetails = dbHelper.GetLaptopDetails(laptopId);

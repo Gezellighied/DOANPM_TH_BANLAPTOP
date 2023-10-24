@@ -29,13 +29,13 @@ namespace DOANPM_TH.Models.ViewModel
             Laptops laptops = new Laptops();
             return laptops;
         }
-        public Customer GetCustomerByEmail(string email)
-        {
-            return dbContext.Customers.Where(item => item.Email == email).FirstOrDefault();
-        }
+		public Customer GetCustomerByEmail(string email)
+		{
+			return dbContext.Customers.Where(item => item.Email == email).FirstOrDefault();
+		}
 
-        // Tạo khách hàng
-        public void CreateCustomer(Customer customer)
+		// Tạo khách hàng
+		public void CreateCustomer(Customer customer)
         {
             dbContext.Customers.Add(customer);
             dbContext.SaveChanges();

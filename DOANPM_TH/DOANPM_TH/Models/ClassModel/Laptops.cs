@@ -1,6 +1,7 @@
 ﻿namespace DOANPM_TH.Models.ClassModel
 {
-    public class Laptops
+	[Serializable]
+	public class Laptops
     {
         public int LaptopID { get; set; }
         public string LaptopName { get; set; }

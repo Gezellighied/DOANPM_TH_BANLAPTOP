@@ -14,6 +14,7 @@ CREATE TABLE Customers (
     Name NVARCHAR(50) NOT NULL,
     Email NVARCHAR(100) NOT NULL,
     Phone NVARCHAR(15) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
 )
 
 CREATE TABLE Orders (
