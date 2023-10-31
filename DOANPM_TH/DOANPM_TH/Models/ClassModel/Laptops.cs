@@ -1,8 +1,11 @@
-﻿namespace DOANPM_TH.Models.ClassModel
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DOANPM_TH.Models.ClassModel
 {
 	[Serializable]
 	public class Laptops
     {
+        [Key]
         public int LaptopID { get; set; }
         public string LaptopName { get; set; }
         public string Brand { get; set; }

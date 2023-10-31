@@ -9,13 +9,16 @@ namespace DOANPM_TH.Models.ViewModel
         {
 
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Laptops>()
                 .HasKey(o => new { o.LaptopID });
             
-        }
+        }*/
         public DbSet<Laptops> Laptops { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        //public DbSet<Cart> Carts { get; set; }
+        //public DbSet<CartItem> CartItems { get; set; }
     }
 }
+    

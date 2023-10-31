@@ -3,7 +3,12 @@
     var listlaptop = ViewData["listlaptop"] as IEnumerable<LatopsViewModel>;
     Layout = "~/Views/Shared/Shopping.cshtml";
 }
-
+<script type="text/javascript">
+    function AddToCart(item) {
+        var LaptopsID = $(item).attr("asp-route-laptopId");
+        alert(LaptopsID);
+    }    
+</script>
 <div class="content-top" margin-top="0px">
     <div class="grid-in" align="center">
         <div class="container" align="center">
@@ -69,7 +74,7 @@
                     margin: 0 9px 5px;
                 }
             </style>
-            <h1>hello</h1>
+           
             <div class="container-fluid pt-5">
                 <div class="text-center mb-4">          
                 </div>

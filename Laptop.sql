@@ -36,11 +36,15 @@ Create table OrderDetails
 
 Create table Carts
 (
-	CartID int identity (1, 1) primary key,
 	CustomerID int constraint FK_Cart_Customers foreign key references Customers(CustomerID),
-	ProductID int constraint FK_Cart_Products foreign key references Laptops(LaptopID),
+	Tensp nvarchar(50),
+	Image nvarchar(550),
+	DonGia decimal(18,0),
+	SoLuong int,
+	LaptopID int constraint FK_Cart_Products foreign key references Laptops(LaptopID),
 	Quantity int,
-	Total float,
+	ThanhTien decimal(18,2),
+	
 )
 
 Create table Brand
@@ -62,3 +66,9 @@ Create Table AdminUser(
     Email NVARCHAR(255),
     Password NVARCHAR(255),
 )
+
+use Laptop
+
+drop table Carts
+
+select * from Carts

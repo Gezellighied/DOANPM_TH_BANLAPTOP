@@ -10,9 +10,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DbContext")));
-builder.Services.AddSession();
-var app = builder.Build();
+// builder.Services.AddSession();
+// Configure services
+int sessionTimeout = builder.Configuration.GetValue<int>("SessionSettings:IdleTimeout");
+string sessionCookieName = builder.Configuration.GetValue<string>("SessionSettings:CookieName");
 
+builder.Services.AddDistributedMemoryCache(); // In-memory caching
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(sessionTimeout);
+    options.Cookie.IsEssential = true;
+});
+
+var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
@@ -26,9 +36,11 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
-app.UseAuthentication();;
+// Set up session in the pipeline
 app.UseSession();
+
+app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
