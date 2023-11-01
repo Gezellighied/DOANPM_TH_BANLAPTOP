@@ -40,21 +40,23 @@
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
                             @*<a class="nav-link" href="index.cshtml">Home</a>*@
-                            <a class="nav-link" asp-controller="HomeCustomer" asp-action="Index">Home-ME</a>
+                            <a class="nav-link" asp-controller="HomeCustomer" asp-action="Index">Trang Chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="~/about.html">About</a>
+                            <a class="nav-link">Hãng</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="~/shop.html">Shop</a>
+                            <a class="nav-link">Giá Tiền</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="~/contact.html">Contact</a>
+                            <a class="btn btn-success btn-lg"asp-controller="Cart" asp-action="Index">
+                                Giỏ Hàng<i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                                </a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                    @*<div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
                             <div class="input-group-text">
@@ -72,15 +74,13 @@
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
+                    </a>*@
                     <div class="navbar-nav ml-auto py-0">
-                       @* @if (Accessor.HttpContext.Session.GetString("Email") == null)*@
-                        {
+                       @* @if (Accessor.HttpContext.Session.GetString("Email") == null)*@          
                             <div class="navbar-nav ml-auto py-0">
                                 <a asp-controller="Customer" asp-action="Login" class="nav-item nav-link">Đăng nhập</a>
                                 <a asp-controller="Customer" asp-action="Register" class="nav-item nav-link">Đăng ký</a>
                             </div>
-                        }
                        @* else
                         {
 

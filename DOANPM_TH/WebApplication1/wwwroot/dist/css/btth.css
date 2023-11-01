@@ -1,0 +1,53 @@
+﻿.ex-info-container {
+    padding: 48px 0;
+}
+
+.ex-info-container h2 {
+    font-size: 48px;
+    color: black;
+    padding-bottom: 32px;
+    font-weight: bold;
+}
+
+.ex-info-container h4 {
+    font-size: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+
+.ex-info-main {
+    margin-bottom: 24px;
+}
+
+.ex-info-box {
+    display: flex;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.ex-info-box span {
+    font-size: 16px;
+    padding: 14px 0;
+    width: 50%;
+}
+
+.ex-info-title {
+    color: #b3b3b3;
+}
+
+.ex-info-desc {
+    color: black;
+    font-weight: bold;
+}
+
+.ex-info-container-btn {
+    text-align: right;
+}
+
+.ex-info-btn {
+    padding: 8px 30px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: transparent;
+    font-size: 16px;
+    color: black;
+}

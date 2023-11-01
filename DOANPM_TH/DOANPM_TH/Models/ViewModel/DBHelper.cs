@@ -41,7 +41,7 @@ namespace DOANPM_TH.Models.ViewModel
 			dbContext.SaveChanges();
 		}
 
-		/*public void AddCard(Carts cartItem)
+        /*public void AddCard(Carts cartItem)
 		{
 			dbContext.Add(cartItem);
 			dbContext.SaveChanges();
@@ -53,6 +53,9 @@ namespace DOANPM_TH.Models.ViewModel
             return carts;
             
 		}*/
-
-	}
+        public List<Laptops> SearchLaptop(String searchSLaptop)
+        {
+            return dbContext.Laptops.Where(p => p.LaptopName.Contains(searchSLaptop)).OrderByDescending(p => p.LaptopID).ToList();
+        }
+    }
 }

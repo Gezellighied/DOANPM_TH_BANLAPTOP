@@ -16,28 +16,44 @@ namespace DOANPM_TH.Controllers
             dbHelper = new DBHelper(context);
             _webHostEnvironment = webHostEnvironment;
         }
-        public IActionResult Index()
+        //[HttpPost]
+        //public IActionResult Search(string searchSLaptop)
+        //{
+        //    ViewData["PageTitle"] = "listlaptop";
+        //    if (searchSLaptop != null && searchSLaptop.Length > 0)
+        //        ViewData["listlaptop"] = dbHelper.SearchLaptop(searchSLaptop);
+        //    else
+        //        ViewData["listlaptop"] = dbHelper.getLaptops();
+        //    return RedirectToAction("Index");
+        //}
+        public IActionResult Index(string searchSLaptop)
         {
-            List<Laptops> listlaptop = dbHelper.getLaptops();
-            List<LatopsViewModel> latopsViewModels = new List<LatopsViewModel>();
-            foreach (var laptop in listlaptop)
-            {
-                var latopsViewModel = new LatopsViewModel
-                {
-                    LaptopsID = laptop.LaptopID,
-                    LaptopName = laptop.LaptopName,
-                    Brand = laptop.Brand,
-                    ScreenSize = laptop.ScreenSize,
-                    Price = laptop.Price,
-                    Processor = laptop.Processor,
-                    Ram = laptop.Ram,
-                    Image = laptop.Image,
-                   
-                };
-                latopsViewModels.Add(latopsViewModel);
-            }
-            ViewData["listlaptop"] = latopsViewModels;
+            ViewData["PageTitle"] = "listlaptop";
+            if (searchSLaptop != null && searchSLaptop.Length > 0)
+                ViewBag.listlaptop = dbHelper.SearchLaptop(searchSLaptop);
+            else
+                ViewBag.listlaptop = dbHelper.getLaptops();
             return View();
+            //List<Laptops> listlaptop = dbHelper.getLaptops();
+            //List<LatopsViewModel> latopsViewModels = new List<LatopsViewModel>();
+            //foreach (var laptop in listlaptop)
+            //{
+            //    var latopsViewModel = new LatopsViewModel
+            //    {
+            //        LaptopsID = laptop.LaptopID,
+            //        LaptopName = laptop.LaptopName,
+            //        Brand = laptop.Brand,
+            //        ScreenSize = laptop.ScreenSize,
+            //        Price = laptop.Price,
+            //        Processor = laptop.Processor,
+            //        Ram = laptop.Ram,
+            //        Image = laptop.Image,
+                   
+            //    };
+            //    latopsViewModels.Add(latopsViewModel);
+            //}
+            //ViewData["listlaptop"] = latopsViewModels;
+            //return View();
         }
 		
 		public IActionResult laptopDetails(int? laptopId)
