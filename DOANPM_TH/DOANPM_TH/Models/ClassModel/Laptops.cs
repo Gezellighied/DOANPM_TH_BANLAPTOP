@@ -1,8 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 namespace DOANPM_TH.Models.ClassModel
 {
-	[Serializable]
 	public class Laptops
     {
         [Key]

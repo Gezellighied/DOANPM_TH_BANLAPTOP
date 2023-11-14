@@ -281,6 +281,14 @@
       "PackagePath": "staticwebassets\\Content\\CssFont\\scss\\font-awesome.scss"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\Content\\HinhAnhSP\\0c3520d9-f297-45e8-9c84-505abc717892.jpg",
+      "PackagePath": "staticwebassets\\Content\\HinhAnhSP\\0c3520d9-f297-45e8-9c84-505abc717892.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\Content\\HinhAnhSP\\57bb8124-fb49-4bac-bc99-661fdde7aed6.jpg",
+      "PackagePath": "staticwebassets\\Content\\HinhAnhSP\\57bb8124-fb49-4bac-bc99-661fdde7aed6.jpg"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\Content\\HinhAnhSP\\ac1.jfif",
       "PackagePath": "staticwebassets\\Content\\HinhAnhSP\\ac1.jfif"
     },
@@ -2017,8 +2025,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\images\\.jpg",
+      "PackagePath": "staticwebassets\\images\\.jpg"
+    },
+    {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\images\\animatedTrapezoids.gif",
       "PackagePath": "staticwebassets\\images\\animatedTrapezoids.gif"
+    },
+    {
+      "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\images\\c92d8079-50b8-4530-b397-d2e00fc6e5da.jpg",
+      "PackagePath": "staticwebassets\\images\\c92d8079-50b8-4530-b397-d2e00fc6e5da.jpg"
     },
     {
       "Id": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\images\\cart.png",

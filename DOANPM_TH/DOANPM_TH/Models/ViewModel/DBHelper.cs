@@ -17,7 +17,7 @@ namespace DOANPM_TH.Models.ViewModel
 		}
 		public Laptops GetLaptopsById(int laptopID)
 		{
-			Laptops laptops = new Laptops();
+			Laptops laptops = dbContext.Laptops.FirstOrDefault(p => p.LaptopID == laptopID); ;
 			return laptops;
 		}
 		public Laptops GetLaptopDetails(int? laptopId)
@@ -40,22 +40,28 @@ namespace DOANPM_TH.Models.ViewModel
 			dbContext.Customers.Add(customer);
 			dbContext.SaveChanges();
 		}
-
-        /*public void AddCard(Carts cartItem)
-		{
-			dbContext.Add(cartItem);
-			dbContext.SaveChanges();
-		}
-
-		public List<Carts> GetCarts(int? v)
-		{
-            List<Carts> carts = dbContext.Carts.OrderByDescending(c =>c.CartID).ToList();
-            return carts;
-            
-		}*/
         public List<Laptops> SearchLaptop(String searchSLaptop)
         {
             return dbContext.Laptops.Where(p => p.LaptopName.Contains(searchSLaptop)).OrderByDescending(p => p.LaptopID).ToList();
         }
-    }
+		public void InsertLaptop(Laptops newLaptops)
+		{
+			dbContext.Laptops.Add(newLaptops);
+			dbContext.SaveChanges();
+		}
+		public Laptops GetNewLaptop()
+		{
+			return dbContext.Laptops.OrderByDescending(p => p.LaptopID).FirstOrDefault();
+		}
+		public void DeleteLaptop(int laptopId)
+		{
+			dbContext.Laptops.Remove(GetLaptopsById(laptopId));
+			dbContext.SaveChanges();
+		}
+		public void UpdateLaptop(Laptops newLatop)
+		{
+			dbContext.Laptops.Update(newLatop);
+			dbContext.SaveChanges();
+		}
+	}
 }

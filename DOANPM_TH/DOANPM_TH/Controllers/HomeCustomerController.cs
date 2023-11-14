@@ -34,26 +34,6 @@ namespace DOANPM_TH.Controllers
             else
                 ViewBag.listlaptop = dbHelper.getLaptops();
             return View();
-            //List<Laptops> listlaptop = dbHelper.getLaptops();
-            //List<LatopsViewModel> latopsViewModels = new List<LatopsViewModel>();
-            //foreach (var laptop in listlaptop)
-            //{
-            //    var latopsViewModel = new LatopsViewModel
-            //    {
-            //        LaptopsID = laptop.LaptopID,
-            //        LaptopName = laptop.LaptopName,
-            //        Brand = laptop.Brand,
-            //        ScreenSize = laptop.ScreenSize,
-            //        Price = laptop.Price,
-            //        Processor = laptop.Processor,
-            //        Ram = laptop.Ram,
-            //        Image = laptop.Image,
-                   
-            //    };
-            //    latopsViewModels.Add(latopsViewModel);
-            //}
-            //ViewData["listlaptop"] = latopsViewModels;
-            //return View();
         }
 		
 		public IActionResult laptopDetails(int? laptopId)
@@ -62,11 +42,5 @@ namespace DOANPM_TH.Controllers
             ViewBag.LaptopDetails = dbHelper.GetLaptopDetails(laptopId);
             return View();
         }
-        //public IActionResult LaptopsDetails(int laptopID)
-        //{
-        //    Laptops laptops = dbHelper.GetLaptopDetails(laptopID);
-        //    ViewBag.laptopDetails = laptops;
-        //    return View();
-        //}
     }
 }

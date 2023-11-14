@@ -1,0 +1,46 @@
+﻿@{
+	Layout = "~/Views/Shared/_AdminLayot.cshtml";
+	var productDelete = ViewBag.productDelete;
+}
+
+
+<section class="content-header">
+	<div class="container-fluid">
+		<div class="row mb-2">
+			<div class="col-sm-6">
+				<h1 style="color: red">Bạn có chắc muốn xóa sản phẩm?</h1>
+			</div>
+			<div class="col-sm-6">
+				<ol class="breadcrumb float-sm-right">
+					<li class="breadcrumb-item"><a asp-controller="Example" asp-action="ExViewBag">Home</a></li>
+					<li class="breadcrumb-item active">Laptop Delete</li>
+				</ol>
+			</div>
+		</div>
+	</div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+	<!-- Default box -->
+	<div class="card">
+		<div class="card-header">
+			<div class="card-tools">
+				<button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+					<i class="fas fa-minus"></i>
+				</button>
+			</div>
+		</div>
+		<form method="post" asp-controller="Admin" asp-action="DeleteById" asp-route-laptopId="@productDelete.LaptopID" class="card-body">
+			<div class="ex-info-container-btn">
+				<a class="ex-info-btn" asp-controller="Admin" asp-action="Index">Quay về</a>
+				<button type="submit" class="ex-info-btn">Xác nhận</button>
+			</div>
+		</form>
+		<!-- /.card-body -->
+	</div>
+	<!-- /.card -->
+
+</section>
+<!-- /.content -->
