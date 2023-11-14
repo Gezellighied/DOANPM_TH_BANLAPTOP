@@ -29,17 +29,17 @@ namespace DOANPM_TH.Models.ViewModel
 			Laptops laptops = new Laptops();
 			return laptops;
 		}
-		public Customer GetCustomerByEmail(string email)
-		{
-			return dbContext.Customers.Where(item => item.Email == email).FirstOrDefault();
-		}
+		//public Customer GetCustomerByEmail(string email)
+		//{
+		//	return dbContext.Customers.Where(item => item.Email == email).FirstOrDefault();
+		//}
 
 		// Tạo khách hàng
-		public void CreateCustomer(Customer customer)
-		{
-			dbContext.Customers.Add(customer);
-			dbContext.SaveChanges();
-		}
+		//public void CreateCustomer(Customer customer)
+		//{
+		//	dbContext.Customers.Add(customer);
+		//	dbContext.SaveChanges();
+		//}
         public List<Laptops> SearchLaptop(String searchSLaptop)
         {
             return dbContext.Laptops.Where(p => p.LaptopName.Contains(searchSLaptop)).OrderByDescending(p => p.LaptopID).ToList();
@@ -61,6 +61,18 @@ namespace DOANPM_TH.Models.ViewModel
 		public void UpdateLaptop(Laptops newLatop)
 		{
 			dbContext.Laptops.Update(newLatop);
+			dbContext.SaveChanges();
+		}
+		// Tìm khách hàng theo Email
+		public Customer GetCustomerByEmail(string email)
+		{
+			return dbContext.Customer.Where(item => item.Email == email).FirstOrDefault();
+		}
+
+		// Tạo khách hàng
+		public void CreateCustomer(Customer customer)
+		{
+			dbContext.Customer.Add(customer);
 			dbContext.SaveChanges();
 		}
 	}
