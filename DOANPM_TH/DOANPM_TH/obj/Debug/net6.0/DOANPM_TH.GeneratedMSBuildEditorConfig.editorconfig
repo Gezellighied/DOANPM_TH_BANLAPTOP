@@ -60,8 +60,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbGFwdG9wRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/CartCustomer/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/CartCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Customer/Login.cshtml]
@@ -82,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/OrderCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDdXN0b21lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diepm/Desktop/LAPTOPSHOP/DOANPM_TH_BANLAPTOP/DOANPM_TH/DOANPM_TH/Views/Shared/Error.cshtml]

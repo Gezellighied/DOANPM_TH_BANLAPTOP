@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace DOANPM_TH.Models.ClassModel
 {
-	public class Carts
+	public class Cart
 	{
 		[Key]
 		public int CartID { get; set; }
@@ -9,7 +9,7 @@ namespace DOANPM_TH.Models.ClassModel
 		public Customer Customer { get; set; }
 
 		public int LaptopID { get; set; }
-		public Laptops Laptops { get; set; }
+		public Laptops Laptop { get; set; }
 
 		public int Quantity { get; set; }
 	}
