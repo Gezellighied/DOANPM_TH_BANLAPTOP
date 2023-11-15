@@ -23,7 +23,6 @@ namespace DOANPM_TH.Controllers
             else
             {
                 HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
-                //ViewBag.categories = dbHelper.GetCategories();
                 ViewBag.carts = dbHelper.GetMyCartByCustomerId(HttpContext.Session.GetInt32("CustomerId"));
 
                 return View();
@@ -62,13 +61,10 @@ namespace DOANPM_TH.Controllers
 
             return RedirectToAction("Index");
         }
-
-        //[Route("/CartCustomer/AddToCartToProductDetals/{productid}/{quantity}")]
         public IActionResult AddToCartToProductDetals(int quantity = 1, int productid = -1)
         {
             if (HttpContext.Session.GetInt32("CustomerId") == null)
             {
-                //return Json(new { redirectUrl = Url.Action("Login", "Customer") });
                 return RedirectToAction("Login", "Customer");
             }
 
@@ -84,15 +80,11 @@ namespace DOANPM_TH.Controllers
 
             dbHelper.AddItemToCart(cart);
 
-            //HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
-
-            //return Json(new { redirectUrl = Url.Action("Index", "CartCustomer") });
             return RedirectToAction("Index");
         }
 
 
         //Edit Quantity
-        [Route("/CartCustomer/EditQuantityPro/{cartId}/{quantity}")]
         [HttpGet]
         public IActionResult EditQuantityPro(int cartId, int quantity)
         {
@@ -114,7 +106,6 @@ namespace DOANPM_TH.Controllers
             }
 
             // lấy danh sách loại sản phẩm
-            //ViewBag.categories = dbHelper.GetCategories();
 
             // lấy sản phẩm trong giỏ hàng
             ViewBag.listCartCheckout = dbHelper.GetMyCartByCustomerId((int)HttpContext.Session.GetInt32("CustomerId"));
@@ -137,7 +128,6 @@ namespace DOANPM_TH.Controllers
             ModelState.Remove("Status");
 
             // lấy danh sách loại sản phẩm
-            //ViewBag.categories = dbHelper.GetCategories();
 
             // lấy sản phẩm trong giỏ hàng
             ViewBag.listCartCheckout = dbHelper.GetMyCartByCustomerId((int)HttpContext.Session.GetInt32("CustomerId"));

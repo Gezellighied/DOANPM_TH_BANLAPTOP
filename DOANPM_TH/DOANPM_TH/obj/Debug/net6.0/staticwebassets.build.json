@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GDI3qno5Uv5dqJJFO0HA726S2BH6RlZfXjfdJKLGt8c=",
+  "Hash": "ZDNEYFGman+9gCm7Qz2t8gs6XVm69p1BY9/ycSjC/2g=",
   "Source": "DOANPM_TH",
   "BasePath": "_content/DOANPM_TH",
   "Mode": "Default",
@@ -4010,6 +4010,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\HinhAnhSP\\591b34e8-0c0b-412d-bdce-f1d9c3858f32.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\Content\\HinhAnhSP\\5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg",
+      "SourceId": "DOANPM_TH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\",
+      "BasePath": "_content/DOANPM_TH",
+      "RelativePath": "Content/HinhAnhSP/5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\HinhAnhSP\\5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg"
     },
     {
       "Identity": "C:\\Users\\diepm\\Desktop\\LAPTOPSHOP\\DOANPM_TH_BANLAPTOP\\DOANPM_TH\\DOANPM_TH\\wwwroot\\Content\\HinhAnhSP\\65e3984d-a4b7-43d3-850b-7fbab7d2be97.jpg",

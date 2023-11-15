@@ -81,10 +81,7 @@
                                 <input type="hidden" name="ProductId" value="@laptopDetails.LaptopID" />
 
                                 <div class="row pb-3">
-                                    <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Buy</button>
-                                    </div>
-                                  
+
                                     <div class="col d-grid">
                                         <a class="btn btn-success btn-lg" asp-action="AddToCartToProductDetals" asp-controller="CartCustomer" asp-route-productId="@laptopDetails.LaptopID">Add To Cart</a>
                                     </div>

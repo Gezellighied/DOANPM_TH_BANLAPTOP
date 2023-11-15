@@ -2768,6 +2768,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Content\HinhAnhSP\591b34e8-0c0b-412d-bdce-f1d9c3858f32.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Content\HinhAnhSP\5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DOANPM_TH</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DOANPM_TH</BasePath>
+      <RelativePath>Content/HinhAnhSP/5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Content\HinhAnhSP\5f9031e7-5a27-4a7b-a4aa-de30f8a6333b.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Content\HinhAnhSP\65e3984d-a4b7-43d3-850b-7fbab7d2be97.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>DOANPM_TH</SourceId>
